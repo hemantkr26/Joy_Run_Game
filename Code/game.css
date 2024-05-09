@@ -1,0 +1,49 @@
+/* canvas {
+	border: 2px solid black;
+	background-color: black;
+}
+video {
+	display: none;
+} */
+* {
+	width: 99.5%;
+	height: 99.2%;
+}
+
+#overlay {
+	position: absolute;
+	top: 8px;
+	/* background-color: rgb(164, 144, 103); */
+	/* background: linear-gradient(17deg, rgb(241, 146, 125) 0%, rgb(135, 193, 204) 34%, rgb(206, 216, 145) 70%, rgba(162,177,244,1) 100%);	color: rgb(225, 6, 6); */
+	color: rgb(13, 5, 244);
+	font-size: x-large;
+	font-family: monospace;
+	padding: 2em;
+	height: 40px;
+	width: 180px;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+
+#death {
+	/* visibility: hidden; */
+	position: absolute;
+	top: 160px;
+	left: 280px;
+	/* color: rgb(47, 0, 255); */
+	/* color: linear-gradient(17deg, rgba(224,144,126,1) 0%, rgba(184,224,99,1) 34%, rgba(140,237,231,1) 70%, rgba(162,177,244,1) 100%);	color: rgb(225, 6, 6);; */
+  background: -webkit-linear-gradient(rgb(235, 252, 0), rgb(18, 255, 5), rgb(222, 255, 5));
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+	/* background: linear-gradient(17deg, rgba(224,144,126,1) 0%, rgba(184,224,99,1) 34%, rgba(140,237,231,1) 70%, rgba(162,177,244,1) 100%);	color: rgb(225, 6, 6); */
+	font-size: 50px;
+	font-weight: bolder;
+	font-family: monospace;
+	height: 7vh;
+	width: 70vw;
+	padding: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
